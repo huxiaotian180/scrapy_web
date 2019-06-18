@@ -49,8 +49,8 @@ def login(count):
             # code_text = input()
 
             # 登陆kehufuli/5016841@yixin
-            browser.find_element_by_id("username").send_keys('kehufuli')
-            browser.find_element_by_id("password").send_keys('5016841@yixin')
+            browser.find_element_by_id("username").send_keys('xxxxx')
+            browser.find_element_by_id("password").send_keys('xxxxxx@yixin')
             browser.find_element_by_id("imageCode").send_keys(code_text)
             browser.find_element_by_class_name("btn-submit").click()
             cookies_login = browser.get_cookie("SESSION")["value"]
